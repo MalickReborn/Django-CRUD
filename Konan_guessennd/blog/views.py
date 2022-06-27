@@ -9,6 +9,8 @@ from django.views.generic.detail import DetailView
 from django.urls import reverse_lazy
 from blog.models import Post
 
+
+
 class PostListView(generic.ListView):
     model = Post
 
